@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(26, 225, 252) , rgb(18, 248, 95));
+    font-family: sans-serif;
+    color: azure;
+}
+.location , .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+} 
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 35px;
+}
+.degree-section h2{
+    font-size: 50px;
+}
+#time{
+    font-size: 40px;
+}
+.time-shown{
+   position: relative;
+   bottom: 50px;
+}
+.time-shown h1{
+    margin-bottom: 30px;
+}
+.browse{
+    padding: 18px;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    border: 0ch;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    text-decoration: none;
+
+}
+.browse:hover{
+    background-color: #508af7;
+    transition: 0.5s;
+}
+
+
+
+
+
+
